@@ -1,3 +1,8 @@
+
+"""
+ * Devuelve true si s es palíndromo (ignora espacios y mayúsculas/minúsculas).
+"""
+
 def es_palindromo(texto: str) -> bool:
     """Devuelve True si 'texto' es palíndromo (ignora espacios y mayúsculas)."""
     texto = texto.lower().replace(" ", "")

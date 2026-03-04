@@ -18,6 +18,9 @@ def test_palindromo_anita_true():
 def test_palindromo_python_false():
     assert not es_palindromo("python")
 
+def test_palindromo_cadena_vacia_true():
+    assert es_palindromo("")
+
 def test_palindromo_radar_mayuscula_true():
     assert es_palindromo("Radar")
 
