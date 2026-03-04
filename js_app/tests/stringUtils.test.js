@@ -16,7 +16,7 @@ test("python_no_es_palindromo", () => {
 });
 
 test("cadena_vacia_es_palindromo", () => {
-  expect(isPalindrome("")).toBe(false);
+  expect(isPalindrome("")).toBe(true);
 });
 
 test("radar_mayuscula_es_palindromo", () => {
