@@ -10,16 +10,16 @@ from utils import suma
 # Test para la función palindromo
 
 def test_palindromo_radar_true():
-    assert es_palindromo("radar") == True
+    assert es_palindromo("radar")
 
 def test_palindromo_anita_true():
-    assert es_palindromo("anita lava la tina") == True
+    assert es_palindromo("anita lava la tina")
 
 def test_palindromo_python_false():
-    assert es_palindromo("python") == False
+    assert not es_palindromo("python")
 
 def test_palindromo_radar_mayuscula_true():
-    assert es_palindromo("Radar") == True  
+    assert es_palindromo("Radar")
 
 # Test para la función suma
 
