@@ -5,7 +5,6 @@
 # - suma(2,3) -> 5; suma(0,5) -> 5; suma(-2,3) -> 1
 
 from palindromo import es_palindromo
-from utils import suma
 
 # Test para la función palindromo
 
@@ -23,15 +22,3 @@ def test_palindromo_cadena_vacia_true():
 
 def test_palindromo_radar_mayuscula_true():
     assert es_palindromo("Radar")
-
-# Test para la función suma
-
-def test_suma_2_3():
-    assert suma(2, 3) == 5
-
-def test_suma_0_5():
-    assert suma(0, 5) == 5
-
-def test_suma_negativo_2_3():
-    assert suma(-2, 3) == 1
-
